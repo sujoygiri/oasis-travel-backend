@@ -24,14 +24,13 @@ authRouter.post("/signup", createUsernameChain(), createEmailChain(), createPass
                 try {
                     await userModel.create({ username, email, password });
                     const jwtToken = jwt.sign({ username, email }, jwtSecret, { expiresIn: expireTime });
-                    res.cookie('_token', jwtToken, { maxAge: expireTime, httpOnly: true });
+                    res.cookie('_token', jwtToken, { maxAge: expireTime, httpOnly: true, sameSite: "strict", priority: "high" });
                     res.json({ success: true, message: 'sign up successful!' });
                 } catch (error) {
                     next(error);
                 }
             });
         });
-        next();
     } else {
         let error = validResult.array();
         next(error);
@@ -51,7 +50,7 @@ authRouter.post("/signin", createEmailChain(), createPasswordChain(), async (req
                 bcrypt.compare(password, userPasswordHash, (err, result) => {
                     if (result) {
                         const jwtToken = jwt.sign({ userName, userEmail }, jwtSecret, { expiresIn: expireTime });
-                        res.cookie('_token', jwtToken, { maxAge: expireTime, httpOnly:true, sameSite:"strict" });
+                        res.cookie('_token', jwtToken, { maxAge: expireTime, httpOnly: true, sameSite: "strict", priority: "high" });
                         res.json({ success: true, message: 'sign in successful!' });
                     } else {
                         let mismatchPasswordError = new Error("Wrong password");
@@ -74,7 +73,24 @@ authRouter.post("/signin", createEmailChain(), createPasswordChain(), async (req
 });
 
 authRouter.get("/verify", (req, res, next) => {
-
+    const cookie = req.headers?.cookie;
+    let jwtTokenFromClient = cookie && cookie.split("=")[1];
+    if (jwtTokenFromClient) {
+        jwt.verify(jwtTokenFromClient, jwtSecret, (err, decodeData) => {
+            if (!err) {
+                res.cookie('_token', jwtTokenFromClient, { maxAge: expireTime, httpOnly: true, sameSite: "strict", priority: "high" });
+                // res.cookie("_username", decodeData.userName, { expires: expireTime, sameSite: "strict" });
+                // res.cookie("_email", decodeData.userEmail, { expires: expireTime, sameSite: "strict" });
+                res.json({ success: true, message: "user verification successful",userName: decodeData.userName, userEmail: decodeData.userEmail});
+            } else {
+                next(err);
+            }
+        });
+    } else {
+        let error = new Error("invalid token");
+        error.statusCode = 400;
+        next(error);
+    }
 });
 
 
