@@ -5,15 +5,20 @@ const morgan = require("morgan");
 const mongoose = require("mongoose");
 const cors = require("cors");
 
-const authRoute = require("./routes/auth.route");
+const authRouter = require("./routes/auth.route");
+const destinationRouter = require('./routes/destination.route');
 const errorHandler = require('./utils/errorHandel.util');
 
 const app = express();
 const port = 3000;
-const DbRemoteURL = `mongodb+srv://${process.env.DB_ADMIN_USER_NAME}:${process.env.DB_PASSWORD}@db-mongodb-blr1-100-ece3e6d1.mongo.ondigitalocean.com/`;
-const DbLocalURL = "mongodb://localhost:27017";
+let DbURL = '';
+if(process.env.CINNAMON_VERSION){
+    DbURL = `mongodb+srv://${process.env.DB_ADMIN_USER_NAME}:${process.env.DB_PASSWORD}@db-mongodb-blr1-100-ece3e6d1.mongo.ondigitalocean.com/`;
+}else{
+    DbURL = "mongodb://localhost:27017";
+}
 
-mongoose.connect(DbLocalURL, { dbName: 'oasis_travel' }).then(() => {
+mongoose.connect(DbURL, { dbName: 'oasis_travel' }).then(() => {
     console.log("Db connection successful!");
 }).catch(error => {
     console.log(error);
@@ -27,7 +32,8 @@ app.use(express.urlencoded({ extended: false }));
 app.get("/", (req, res) => {
     res.json({ resp: "Hello from oasis world!" });
 });
-app.use('/api/auth', authRoute);
+app.use('/api/auth', authRouter);
+app.use('/api/destination', destinationRouter)
 app.use(errorHandler);
 
 app.listen(port, () => {

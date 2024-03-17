@@ -1,5 +1,4 @@
-const express = require("express");
-const authRouter = express.Router();
+const authRouter = require("express").Router();
 const jwt = require("jsonwebtoken");
 const bcrypt = require("bcrypt");
 const { body, matchedData, validationResult } = require("express-validator");
@@ -7,7 +6,7 @@ const { body, matchedData, validationResult } = require("express-validator");
 const userModel = require("../models/user.model");
 
 const saltRounds = 10;
-const expireTime = 24 * 60 * 60 * 1000;
+const expireTime = 2 * 24 * 60 * 60 * 1000;
 const jwtSecret = process.env.JWT_SECRET;
 
 const createUsernameChain = () => body('username').trim().notEmpty().escape().isAlphanumeric();
@@ -74,7 +73,7 @@ authRouter.post("/signin", createEmailChain(), createPasswordChain(), async (req
 
 authRouter.get("/verify", (req, res, next) => {
     const cookie = req.headers?.cookie;
-    let jwtTokenFromClient = cookie && cookie.split("=")[1];
+    let jwtTokenFromClient = cookie && cookie.split("_token=")[1];
     if (jwtTokenFromClient) {
         jwt.verify(jwtTokenFromClient, jwtSecret, (err, decodeData) => {
             if (!err) {
@@ -83,6 +82,7 @@ authRouter.get("/verify", (req, res, next) => {
                 // res.cookie("_email", decodeData.userEmail, { expires: expireTime, sameSite: "strict" });
                 res.json({ success: true, message: "user verification successful",userName: decodeData.userName, userEmail: decodeData.userEmail});
             } else {
+                console.log(err);
                 next(err);
             }
         });
