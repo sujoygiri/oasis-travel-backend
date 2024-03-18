@@ -54,13 +54,13 @@ authRouter.post("/signin", createEmailChain(), createPasswordChain(), async (req
                     } else {
                         let mismatchPasswordError = new Error("Wrong password");
                         mismatchPasswordError.statusCode = 400;
-                        next(mismatchPasswordError);
+                        throw mismatchPasswordError;
                     }
                 });
             } else {
                 let error = new Error("User not found");
                 error.statusCode = 404;
-                next(error);
+                throw error;
             }
         } catch (error) {
             next(error);
