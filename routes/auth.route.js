@@ -77,21 +77,29 @@ authRouter.get("/verify", (req, res, next) => {
     if (jwtTokenFromClient) {
         jwt.verify(jwtTokenFromClient, jwtSecret, (err, decodeData) => {
             if (!err) {
-                res.cookie('_token', jwtTokenFromClient, { maxAge: expireTime, httpOnly: true, sameSite: "strict", priority: "high" });
-                // res.cookie("_username", decodeData.userName, { expires: expireTime, sameSite: "strict" });
-                // res.cookie("_email", decodeData.userEmail, { expires: expireTime, sameSite: "strict" });
-                res.json({ success: true, message: "user verification successful",userName: decodeData.userName, userEmail: decodeData.userEmail});
+                if(decodeData.userName && decodeData.userEmail){
+                    res.cookie('_token', jwtTokenFromClient, { maxAge: expireTime, httpOnly: true, sameSite: "strict", priority: "high" });
+                    res.json({ success: true, message: "user verification successful",userName: decodeData.userName, userEmail: decodeData.userEmail});
+                }else{
+                    res.cookie('_token', jwtTokenFromClient, { maxAge: expireTime, httpOnly: true, sameSite: "strict" });
+                    res.json({ success: false, message: "user verification failed!"});
+                }
             } else {
-                console.log(err);
                 next(err);
             }
         });
     } else {
-        let error = new Error("invalid token");
+        let error = new Error("token not found!");
         error.statusCode = 400;
         next(error);
     }
 });
+
+authRouter.get("/logout",(req,res,next) => {
+    const jwtToken = jwt.sign('',jwtSecret);
+    res.cookie('_token',jwtToken,{ maxAge: expireTime, httpOnly: true, sameSite: "strict" });
+    res.json({success:true,message:"logout successful!"})
+})
 
 
 module.exports = authRouter;
