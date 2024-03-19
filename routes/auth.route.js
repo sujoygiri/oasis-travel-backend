@@ -79,10 +79,10 @@ authRouter.get("/verify", (req, res, next) => {
         jwt.verify(jwtTokenFromClient, jwtSecret,async (err, decodeData) => {
             if (!err) {
                 let userId = decodeData.userId;
-                let {username,email} = await userModel.findById(userId,{_id:0,password:0})
-                if(username && email){
+                let userData = await userModel.findById(userId,{_id:0,password:0})
+                if(userData && userData.username && userData.email){
                     res.cookie('_token', jwtTokenFromClient, { maxAge: expireTime, httpOnly: true, sameSite: "strict", priority: "high" });
-                    res.json({ success: true, message: "user verification successful",userName: username, userEmail: email});
+                    res.json({ success: true, message: "user verification successful",userName: userData.username, userEmail: userData.email});
                 }else{
                     res.cookie('_token', jwtTokenFromClient, { maxAge: expireTime, httpOnly: true, sameSite: "strict" });
                     res.json({ success: false, message: "user verification failed!"});
