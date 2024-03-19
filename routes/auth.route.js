@@ -21,8 +21,8 @@ authRouter.post("/signup", createUsernameChain(), createEmailChain(), createPass
             bcrypt.hash(password, salt, async (err, hash) => {
                 password = hash;
                 try {
-                    await userModel.create({ username, email, password });
-                    const jwtToken = jwt.sign({ username, email }, jwtSecret, { expiresIn: expireTime });
+                    let userData = await userModel.create({ username, email, password });
+                    const jwtToken = jwt.sign({userName:userData.username, userEmail:userData.email, userId:userData._id }, jwtSecret, { expiresIn: expireTime });
                     res.cookie('_token', jwtToken, { maxAge: expireTime, httpOnly: true, sameSite: "strict", priority: "high" });
                     res.json({ success: true, message: 'sign up successful!' });
                 } catch (error) {
@@ -46,9 +46,10 @@ authRouter.post("/signin", createEmailChain(), createPasswordChain(), async (req
                 let userName = userData.username;
                 let userEmail = userData.email;
                 let userPasswordHash = userData.password;
+                let userId = userData._id;
                 bcrypt.compare(password, userPasswordHash, (err, result) => {
                     if (result) {
-                        const jwtToken = jwt.sign({ userName, userEmail }, jwtSecret, { expiresIn: expireTime });
+                        const jwtToken = jwt.sign({ userName, userEmail, userId }, jwtSecret, { expiresIn: expireTime });
                         res.cookie('_token', jwtToken, { maxAge: expireTime, httpOnly: true, sameSite: "strict", priority: "high" });
                         res.json({ success: true, message: 'sign in successful!' });
                     } else {
@@ -73,13 +74,15 @@ authRouter.post("/signin", createEmailChain(), createPasswordChain(), async (req
 
 authRouter.get("/verify", (req, res, next) => {
     const cookie = req.headers?.cookie;
-    let jwtTokenFromClient = cookie && cookie.split("_token=")[1];
+    const jwtTokenFromClient = cookie && cookie.split("_token=")[1];
     if (jwtTokenFromClient) {
-        jwt.verify(jwtTokenFromClient, jwtSecret, (err, decodeData) => {
+        jwt.verify(jwtTokenFromClient, jwtSecret,async (err, decodeData) => {
             if (!err) {
-                if(decodeData.userName && decodeData.userEmail){
+                let userId = decodeData.userId;
+                let {username,email} = await userModel.findById(userId,{_id:0,password:0})
+                if(username && email){
                     res.cookie('_token', jwtTokenFromClient, { maxAge: expireTime, httpOnly: true, sameSite: "strict", priority: "high" });
-                    res.json({ success: true, message: "user verification successful",userName: decodeData.userName, userEmail: decodeData.userEmail});
+                    res.json({ success: true, message: "user verification successful",userName: username, userEmail: email});
                 }else{
                     res.cookie('_token', jwtTokenFromClient, { maxAge: expireTime, httpOnly: true, sameSite: "strict" });
                     res.json({ success: false, message: "user verification failed!"});

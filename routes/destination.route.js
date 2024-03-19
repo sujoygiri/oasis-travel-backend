@@ -1,10 +1,11 @@
+const jwt = require("jsonwebtoken");
 const destinationRouter = require("express").Router();
 
 const destinationModel = require("../models/destination.model");
 const destinationDetailModel = require("../models/destination-detail.model");
+const bookingModel = require("../models/booking.model");
 
-// {name:{$regex:/.*.*/gi},routePath:{$regex:/.*Los.*/gi}}
-// let regEx = new RegExp(/.*('s').*/gi)
+const jwtSecret = process.env.JWT_SECRET;
 
 destinationRouter.get("/search-destination", async (req, res, next) => {
     let { place_name } = req.query;
@@ -30,11 +31,26 @@ destinationRouter.get("/destination-detail", async (req, res, next) => {
     else if (region) {
         destinationDetail = await destinationDetailModel.find({ name: region }, { _id: 0 });
     }
-    if(destinationDetail[0]){
-        res.json(destinationDetail[0]);
-    }else{
-        res.status(400).json({success:false,message:'nothing found!'})
-    }
+    destinationDetail[0] ? res.json(destinationDetail[0]) : res.status(400).json({ success: false, message: 'nothing found!' });
+});
+
+destinationRouter.post("/booking", (req, res, next) => {
+    const { firstName, lastName, email, phone, destination, totalTraveler, planningMode } = req.body;
+    const cookie = req.headers?.cookie;
+    const jwtTokenFromClient = cookie && cookie.split("_token=")[1];
+    jwt.verify(jwtTokenFromClient, jwtSecret, async (err, decodeData) => {
+        if (!err) {
+            let userId = decodeData.userId;
+            let bookingData = await bookingModel.create({ _user: userId, firstName, lastName, email, phone, destination, totalTraveler, planningMode });
+            if (bookingData) {
+                res.status(200).json({ success: true, message: "booking successful" });
+            } else {
+                res.status(400).json({ success: false, message: "booking failed" });
+            }
+        } else {
+            next(err);
+        }
+    });
 });
 
 module.exports = destinationRouter;

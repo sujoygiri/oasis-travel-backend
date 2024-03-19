@@ -1,0 +1,1424 @@
+[
+    {
+        "title": "Jewel Grande Montego Bay Resort & Spa | Air & Vacation Package",
+        "name": "jewel-grande-montego-bay-resort-spa-air-vacation-package",
+        "type": "vacation",
+        "star_rating": "4.0",
+        "image": "images/Jewel-Grande.jpg",
+        "destination": [
+            {
+                "name": "Montego Bay",
+                "parent": "Jamaica"
+            }
+        ],
+        "advertsied_price": "1185.00",
+        "length_of_stay": "4",
+        "los_units": "nights",
+        "includes": {
+            "air": "1",
+            "hotel": "1",
+            "rental_car": "0",
+            "sightseeing": "0",
+            "transfer": "1",
+            "all_inclusive": "1",
+            "adults_only": "0",
+            "family": "1",
+            "beach":"1",
+            "golf_and_spa":"1"
+        },
+        "featured": "1",
+        "hot_deal": "1",
+        "exclusive": "0",
+        "my_time": "1",
+        "get_carried_away": "0",
+        "code": "77676"
+    },
+    {
+        "title": "Hard Rock Hotel & Casino Punta Cana | Air & Vacation Package",
+        "name": "hard-rock-hotel-casino-punta-cana-air-vacation-package",
+        "type": "vacation",
+        "star_rating": "4.5",
+        "image": "images/HRHC_Punta_Cana_EclipseTerrace.jpg",
+        "destination": [
+            {
+                "name": "Punta Cana",
+                "parent": "Dominican Republic"
+            }
+        ],
+        "advertsied_price": "1369.00",
+        "length_of_stay": "4",
+        "los_units": "nights",
+        "includes": {
+            "air": "1",
+            "hotel": "1",
+            "rental_car": "0",
+            "sightseeing": "0",
+            "transfer": "1",
+            "all_inclusive": "1",
+            "adults_only": "0",
+            "family": "1",
+            "honeymoon":"1",
+            "beach":"1",
+            "casino":"1",
+            "golf_and_spa":"1"
+        },
+        "featured": "1",
+        "hot_deal": "1",
+        "exclusive": "0",
+        "my_time": "0",
+        "get_carried_away": "0",
+        "code": "70901"
+    },
+    {
+        "title": "Hilton Cancun, an All-Inclusive Resort | Air & Vacation Package",
+        "name": "hilton-cancun-an-allinclusive-resort-air-vacation-package",
+        "type": "vacation",
+        "star_rating": "4",
+        "image": "images/CUNQR_Chill_Pool_01_1.jpg",
+        "destination": [
+            {
+                "name": "Cancun",
+                "parent": "Mexico"
+            }
+        ],
+        "advertsied_price": "1589.00",
+        "length_of_stay": "4",
+        "los_units": "nights",
+        "includes": {
+            "air": "1",
+            "hotel": "1",
+            "rental_car": "0",
+            "sightseeing": "0",
+            "transfer": "1",
+            "all_inclusive": "1",
+            "adults_only": "0",
+            "family": "1",
+            "beach":"1"
+        },
+        "featured": "1",
+        "hot_deal": "0",
+        "exclusive": "0",
+        "my_time": "0",
+        "get_carried_away": "0",
+        "code": "143761"
+    },
+    {
+        "title": "Hyatt Ziva Cancun | Air & Vacation Package  ",
+        "name": "hyatt-ziva-cancun-air-vacation-package",
+        "type": "vacation",
+        "star_rating": "4.5",
+        "image": "images/Hyatt%20Ziva%20Cancun%20-%20Approved%20Main%20Image.jpg",
+        "destination": [
+            {
+                "name": "Cancun",
+                "parent": "Mexico"
+            }
+        ],
+        "advertsied_price": "1539.00",
+        "length_of_stay": "4",
+        "los_units": "nights",
+        "includes": {
+            "air": "1",
+            "hotel": "1",
+            "rental_car": "0",
+            "sightseeing": "0",
+            "transfer": "1",
+            "all_inclusive": "1",
+            "adults_only": "0",
+            "family": "1",
+            "beach":"1"
+        },
+        "featured": "0",
+        "hot_deal": "0",
+        "exclusive": "0",
+        "my_time": "1",
+        "get_carried_away": "0",
+        "code": "111146"
+    },
+    {
+        "title": "The Ritz-Carlton Aruba | Air & Vacation Package",
+        "name": "the-ritzcarlton-aruba-air-vacation-package",
+        "type": "vacation",
+        "star_rating": "0",
+        "image": "images/Ritz%20Cartlon%20Aruba%20auart-exterior-0017-hor-clsc.jpeg_.jpg",
+        "destination": [
+            {
+                "name": "Aruba",
+                "parent": "Caribbean"
+            }
+        ],
+        "advertsied_price": "1779.00",
+        "length_of_stay": "4",
+        "los_units": "nights",
+        "includes": {
+            "air": "1",
+            "hotel": "1",
+            "rental_car": "0",
+            "sightseeing": "0",
+            "transfer": "1",
+            "all_inclusive": "0",
+            "adults_only": "0",
+            "family": "1",
+            "honeymoon":"1",
+            "beach":"1",
+            "luxary":"1"
+        },
+        "featured": "0",
+        "hot_deal": "0",
+        "exclusive": "0",
+        "my_time": "0",
+        "get_carried_away": "0",
+        "code": "148246"
+    },
+    {
+        "title": "Iberostar Selection Rose Hall Suites | Air & Vacation Package",
+        "name": "iberostar-selection-rose-hall-suites-air-vacation-package",
+        "type": "vacation",
+        "star_rating": "4.0",
+        "image": "images/50_IBSTAR_ROA_SE_VIEWS_POOL_D2107_004%20%285%29.jpg",
+        "destination": [
+            {
+                "name": "Montego Bay",
+                "parent": "Jamaica"
+            }
+        ],
+        "advertsied_price": "1189.00",
+        "length_of_stay": "4",
+        "los_units": "nights",
+        "includes": {
+            "air": "1",
+            "hotel": "1",
+            "rental_car": "0",
+            "sightseeing": "0",
+            "transfer": "1",
+            "all_inclusive": "1",
+            "adults_only": "0",
+            "family": "1",
+            "lastMinute":"1",
+            "beach":"1",
+            "golf_and_spa":"1"
+        },
+        "featured": "0",
+        "hot_deal": "0",
+        "exclusive": "0",
+        "my_time": "0",
+        "get_carried_away": "0",
+        "code": "75171"
+    },
+    {
+        "title": "Hilton Tulum Riviera Maya All-Inclusive Resort | Air & Vacation Package",
+        "name": "hilton-tulum-riviera-maya-allinclusive-resort-air-vacation-package",
+        "type": "vacation",
+        "star_rating": "4",
+        "image": "images/Aerial_Hilton_Tulum_040681.jpg",
+        "destination": [
+            {
+                "name": "Riviera Maya",
+                "parent": "Mexico"
+            }
+        ],
+        "advertsied_price": "1635.00",
+        "length_of_stay": "4",
+        "los_units": "nights",
+        "includes": {
+            "air": "1",
+            "hotel": "1",
+            "rental_car": "0",
+            "sightseeing": "0",
+            "transfer": "1",
+            "all_inclusive": "1",
+            "adults_only": "0",
+            "family": "1",
+            "beach":"1"
+        },
+        "featured": "0",
+        "hot_deal": "0",
+        "exclusive": "0",
+        "my_time": "0",
+        "get_carried_away": "0",
+        "code": "144416"
+    },
+    {
+        "title": "Hilton La Romana, an All-Inclusive Family Resort | Air & Vacation Package ",
+        "name": "hilton-la-romana-an-allinclusive-family-resort-air-vacation-package",
+        "type": "vacation",
+        "star_rating": "4.0",
+        "image": "images/Hilton%20La%20Romana%20aerial.jpg",
+        "destination": [
+            {
+                "name": "La Romana",
+                "parent": "Dominican Republic"
+            }
+        ],
+        "advertsied_price": "1159.00",
+        "length_of_stay": "4",
+        "los_units": "nights",
+        "includes": {
+            "air": "1",
+            "hotel": "1",
+            "rental_car": "0",
+            "sightseeing": "0",
+            "transfer": "1",
+            "all_inclusive": "1",
+            "adults_only": "0",
+            "family": "1",
+            "golf_and_spa":"1"
+        },
+        "featured": "0",
+        "hot_deal": "0",
+        "exclusive": "0",
+        "my_time": "1",
+        "get_carried_away": "0",
+        "code": "93311"
+    },
+    {
+        "title": "Hyatt Ziva Puerto Vallarta | Air & Vacation Package",
+        "name": "hyatt-ziva-puerto-vallarta-air-vacation-package",
+        "type": "vacation",
+        "star_rating": "4.5",
+        "image": "images/Hyatt-Ziva-Puerto-Vallarta-Aerial.jpg",
+        "destination": [
+            {
+                "name": "Puerto Vallarta",
+                "parent": "Mexico"
+            }
+        ],
+        "advertsied_price": "1169.00",
+        "length_of_stay": "4",
+        "los_units": "nights",
+        "includes": {
+            "air": "1",
+            "hotel": "1",
+            "rental_car": "0",
+            "sightseeing": "0",
+            "transfer": "1",
+            "all_inclusive": "1",
+            "adults_only": "0",
+            "family": "1"
+        },
+        "featured": "0",
+        "hot_deal": "0",
+        "exclusive": "0",
+        "my_time": "1",
+        "get_carried_away": "0",
+        "code": "70936"
+    },
+    {
+        "title": "Dreams® Vista Cancun Golf & Spa Resort | Air & Vacation Package",
+        "name": "dreams-vista-cancun-golf-spa-resort-air-vacation-package",
+        "type": "vacation",
+        "star_rating": "4.0",
+        "image": "images/DREVC-EXT-Aerial-4A-CB.png",
+        "destination": [
+            {
+                "name": "Cancun",
+                "parent": "Mexico"
+            }
+        ],
+        "advertsied_price": "1145.00",
+        "length_of_stay": "4",
+        "los_units": "nights",
+        "includes": {
+            "air": "1",
+            "hotel": "1",
+            "rental_car": "0",
+            "sightseeing": "0",
+            "transfer": "1",
+            "all_inclusive": "1",
+            "adults_only": "0",
+            "family": "1",
+            "golf_and_spa":"1"
+        },
+        "featured": "0",
+        "hot_deal": "0",
+        "exclusive": "0",
+        "my_time": "0",
+        "get_carried_away": "0",
+        "code": "137781"
+    },
+    {
+        "title": "Coral Level at Iberostar Selection Bavaro | Air & Vacation Package",
+        "name": "coral-level-at-iberostar-selection-bavaro-air-vacation-package",
+        "type": "vacation",
+        "star_rating": "4.0",
+        "image": "images/Capture_11.JPG",
+        "destination": [
+            {
+                "name": "Dominican Republic",
+                "parent": "Caribbean"
+            }
+        ],
+        "advertsied_price": "975.00",
+        "length_of_stay": "4",
+        "los_units": "nights",
+        "includes": {
+            "air": "1",
+            "hotel": "1",
+            "rental_car": "0",
+            "sightseeing": "0",
+            "transfer": "1",
+            "all_inclusive": "1",
+            "adults_only": "0",
+            "family": "1"
+        },
+        "featured": "0",
+        "hot_deal": "0",
+        "exclusive": "0",
+        "my_time": "0",
+        "get_carried_away": "0",
+        "code": "114006"
+    },
+    {
+        "title": "Dreams® Sands Cancun Resort & Spa | Air & Vacation Package",
+        "name": "dreams-sands-cancun-resort-spa-air-vacation-package",
+        "type": "vacation",
+        "star_rating": "4.0",
+        "image": "images/Dreams%20Sands%20DRESC-EXT-Aerial-3A-CB.jpg",
+        "destination": [
+            {
+                "name": "Cancun",
+                "parent": "Mexico"
+            }
+        ],
+        "advertsied_price": "965.00",
+        "length_of_stay": "4",
+        "los_units": "nights",
+        "includes": {
+            "air": "1",
+            "hotel": "1",
+            "rental_car": "0",
+            "sightseeing": "0",
+            "transfer": "1",
+            "all_inclusive": "1",
+            "adults_only": "0",
+            "family": "1",
+            "golf_and_spa":"1"
+        },
+        "featured": "0",
+        "hot_deal": "0",
+        "exclusive": "0",
+        "my_time": "0",
+        "get_carried_away": "0",
+        "code": "77081"
+    },
+    {
+        "title": "Hyatt Ziva Los Cabos | Air & Vacation Package",
+        "name": "hyatt-ziva-los-cabos-air-vacation-package",
+        "type": "vacation",
+        "star_rating": "4.5",
+        "image": "images/Hyatt-Ziva-Los-Cabos-Infinity-Pool-Drinks-Fruit.jpg",
+        "destination": [
+            {
+                "name": "Los Cabos",
+                "parent": "Mexico"
+            }
+        ],
+        "advertsied_price": "1315.00",
+        "length_of_stay": "4",
+        "los_units": "nights",
+        "includes": {
+            "air": "1",
+            "hotel": "1",
+            "rental_car": "0",
+            "sightseeing": "0",
+            "transfer": "1",
+            "all_inclusive": "1",
+            "adults_only": "0",
+            "family": "1",
+            "golf_and_spa":"1"
+        },
+        "featured": "0",
+        "hot_deal": "0",
+        "exclusive": "0",
+        "my_time": "1",
+        "get_carried_away": "0",
+        "code": "70916"
+    },
+    {
+        "title": "Hotel Xcaret Mexico | Air & Vacation Package ",
+        "name": "hotel-xcaret-mexico-air-vacation-package",
+        "type": "vacation",
+        "star_rating": "5.0",
+        "image": "images/Hotel%20Xcaret%20Mexico_0.jpg",
+        "destination": [
+            {
+                "name": "Riviera Maya",
+                "parent": "Mexico"
+            }
+        ],
+        "advertsied_price": "1949.00",
+        "length_of_stay": "4",
+        "los_units": "nights",
+        "includes": {
+            "air": "1",
+            "hotel": "1",
+            "rental_car": "0",
+            "sightseeing": "0",
+            "transfer": "0",
+            "all_inclusive": "1",
+            "adults_only": "0",
+            "family": "1"
+        },
+        "featured": "0",
+        "hot_deal": "0",
+        "exclusive": "0",
+        "my_time": "0",
+        "get_carried_away": "0",
+        "code": "78581"
+    },
+    {
+        "title": "Riu Palace Riviera Maya | Air & Vacation Package",
+        "name": "riu-palace-riviera-maya-air-vacation-package",
+        "type": "vacation",
+        "star_rating": "4.0",
+        "image": "images/Riu%20Palace%20Riviera%20Maya.jpg",
+        "destination": [
+            {
+                "name": "Riviera Maya",
+                "parent": "Mexico"
+            }
+        ],
+        "advertsied_price": "989.00",
+        "length_of_stay": "4",
+        "los_units": "nights",
+        "includes": {
+            "air": "1",
+            "hotel": "1",
+            "rental_car": "0",
+            "sightseeing": "0",
+            "transfer": "1",
+            "all_inclusive": "1",
+            "adults_only": "0",
+            "family": "1"
+        },
+        "featured": "0",
+        "hot_deal": "0",
+        "exclusive": "0",
+        "my_time": "0",
+        "get_carried_away": "0",
+        "code": "110931"
+    },
+    {
+        "title": "Grand Wailea, A Waldorf Astoria Resort | Air & Vacation Package with Car Rental",
+        "name": "grand-wailea-a-waldorf-astoria-resort-air-vacation-package-with-car-rental",
+        "type": "vacation",
+        "star_rating": "5.0",
+        "image": "images/Grand%20Wailea.jpeg",
+        "destination": [
+            {
+                "name": "Maui",
+                "parent": "Hawaii"
+            }
+        ],
+        "advertsied_price": "3365.00",
+        "length_of_stay": "6",
+        "los_units": "nights",
+        "includes": {
+            "air": "1",
+            "hotel": "1",
+            "rental_car": "1",
+            "sightseeing": "0",
+            "transfer": "0",
+            "all_inclusive": "0",
+            "adults_only": "0",
+            "family": "1",
+            "luxary":"1"
+        },
+        "featured": "0",
+        "hot_deal": "0",
+        "exclusive": "0",
+        "my_time": "0",
+        "get_carried_away": "0",
+        "code": "147911"
+    },
+    {
+        "title": "Half Moon | Air & Vacation Package",
+        "name": "half-moon-air-vacation-package",
+        "type": "vacation",
+        "star_rating": "5.0",
+        "image": "images/eclipse%20half%20moon.jpg",
+        "destination": [
+            {
+                "name": "Montego Bay",
+                "parent": "Jamaica"
+            }
+        ],
+        "advertsied_price": "1529.00",
+        "length_of_stay": "4",
+        "los_units": "nights",
+        "includes": {
+            "air": "1",
+            "hotel": "1",
+            "rental_car": "0",
+            "sightseeing": "0",
+            "transfer": "1",
+            "all_inclusive": "0",
+            "adults_only": "0",
+            "family": "1",
+            "luxary":"1"
+        },
+        "featured": "0",
+        "hot_deal": "0",
+        "exclusive": "0",
+        "my_time": "0",
+        "get_carried_away": "0",
+        "code": "93381"
+    },
+    {
+        "title": "Riu Guanacaste | Air & Vacation Package",
+        "name": "riu-guanacaste-air-vacation-package",
+        "type": "vacation",
+        "star_rating": "4.0",
+        "image": "images/1%20-%20Aerial_0.png",
+        "destination": [
+            {
+                "name": "Costa Rica",
+                "parent": "Central America"
+            }
+        ],
+        "advertsied_price": "1069.00",
+        "length_of_stay": "4",
+        "los_units": "nights",
+        "includes": {
+            "air": "1",
+            "hotel": "1",
+            "rental_car": "0",
+            "sightseeing": "0",
+            "transfer": "1",
+            "all_inclusive": "1",
+            "adults_only": "0",
+            "family": "1"
+        },
+        "featured": "0",
+        "hot_deal": "0",
+        "exclusive": "0",
+        "my_time": "0",
+        "get_carried_away": "0",
+        "code": "76466"
+    },
+    {
+        "title": "Hilton Playa del Carmen | Air & Vacation Package",
+        "name": "hilton-playa-del-carmen-air-vacation-package",
+        "type": "vacation",
+        "star_rating": "4.5",
+        "image": "images/Hilton%20PDC%20NEW%2021NOV_Resort_Aerial_10.jpg",
+        "destination": [
+            {
+                "name": "Riviera Maya",
+                "parent": "Mexico"
+            }
+        ],
+        "advertsied_price": "1145.00",
+        "length_of_stay": "4",
+        "los_units": "nights",
+        "includes": {
+            "air": "1",
+            "hotel": "1",
+            "rental_car": "0",
+            "sightseeing": "0",
+            "transfer": "1",
+            "all_inclusive": "1",
+            "adults_only": "1",
+            "honeymoon": "1",
+            "beach":"1"
+        },
+        "featured": "1",
+        "hot_deal": "1",
+        "exclusive": "0",
+        "my_time": "1",
+        "get_carried_away": "0",
+        "code": "70956"
+    },
+    {
+        "title": "Riu Palace Paradise Island | Air & Vacation Package",
+        "name": "riu-palace-paradise-island-air-vacation-package",
+        "type": "vacation",
+        "star_rating": "4.0",
+        "image": "images/Gastro-Guide.jpg",
+        "destination": [
+            {
+                "name": "Paradise Island",
+                "parent": "Bahamas"
+            }
+        ],
+        "advertsied_price": "1289.00",
+        "length_of_stay": "4",
+        "los_units": "nights",
+        "includes": {
+            "air": "1",
+            "hotel": "1",
+            "rental_car": "0",
+            "sightseeing": "0",
+            "transfer": "1",
+            "all_inclusive": "1",
+            "adults_only": "1",
+            "honeymoon": "1",
+            "beach":"1"
+        },
+        "featured": "1",
+        "hot_deal": "1",
+        "exclusive": "0",
+        "my_time": "0",
+        "get_carried_away": "0",
+        "code": "74376"
+    },
+    {
+        "title": "Sanctuary Cap Cana Resort | Air & Vacation Package",
+        "name": "sanctuary-cap-cana-resort-air-vacation-package",
+        "type": "vacation",
+        "star_rating": "4.5",
+        "image": "images/Sanctuary-Cap-Cana.jpg",
+        "destination": [
+            {
+                "name": "Punta Cana",
+                "parent": "Dominican Republic"
+            }
+        ],
+        "advertsied_price": "1355.00",
+        "length_of_stay": "4",
+        "los_units": "nights",
+        "includes": {
+            "air": "1",
+            "hotel": "1",
+            "rental_car": "0",
+            "sightseeing": "0",
+            "transfer": "1",
+            "all_inclusive": "1",
+            "adults_only": "1",
+            "honeymoon": "1",
+            "beach":"1",
+            "luxary":"1",
+            "golf_and_spa":"1"
+        },
+        "featured": "1",
+        "hot_deal": "0",
+        "exclusive": "0",
+        "my_time": "1",
+        "get_carried_away": "0",
+        "code": "70911"
+    },
+    {
+        "title": "Secrets Tides Punta Cana | Air & Vacation Package",
+        "name": "secrets-tides-punta-cana-air-vacation-package",
+        "type": "vacation",
+        "star_rating": 0,
+        "image": "images/SETPC-AERIAL-Resort-view-01-RNDR.jpg",
+        "destination": [
+            {
+                "name": "Punta Cana",
+                "parent": "Dominican Republic"
+            }
+        ],
+        "advertsied_price": "1255.00",
+        "length_of_stay": "4",
+        "los_units": "nights",
+        "includes": {
+            "air": "1",
+            "hotel": "1",
+            "rental_car": "0",
+            "sightseeing": "0",
+            "transfer": "1",
+            "all_inclusive": "1",
+            "adults_only": "1",
+            "honeymoon": "1",
+            "beach":"1"
+        },
+        "featured": "1",
+        "hot_deal": "0",
+        "exclusive": "0",
+        "my_time": "0",
+        "get_carried_away": "0",
+        "code": "148551"
+    },
+    {
+        "title": "Secrets® Playa Mujeres Golf & Spa Resort | Air & Vacation Package",
+        "name": "secrets-playa-mujeres-golf-spa-resort-air-vacation-package",
+        "type": "vacation",
+        "star_rating": "4.5",
+        "image": "images/SECPM-EXT-MainPool-2021-1A-CB.png",
+        "destination": [
+            {
+                "name": "Cancun",
+                "parent": "Mexico"
+            }
+        ],
+        "advertsied_price": "1279.00",
+        "length_of_stay": "4",
+        "los_units": "nights",
+        "includes": {
+            "air": "1",
+            "hotel": "1",
+            "rental_car": "0",
+            "sightseeing": "0",
+            "transfer": "1",
+            "all_inclusive": "1",
+            "adults_only": "1",
+            "honeymoon": "1",
+            "beach":"1",
+            "golf_and_spa":"1"
+        },
+        "featured": "1",
+        "hot_deal": "0",
+        "exclusive": "0",
+        "my_time": "0",
+        "get_carried_away": "0",
+        "code": "71126"
+    },
+    {
+        "title": "Iberostar Grand Paraíso | Air & Vacation Package ",
+        "name": "iberostar-grand-paraso-air-vacation-package",
+        "type": "vacation",
+        "star_rating": "4.5",
+        "image": "images/GHP_VIEWS_0020_med.jpg",
+        "destination": [
+            {
+                "name": "Riviera Maya",
+                "parent": "Mexico"
+            }
+        ],
+        "advertsied_price": "1335.00",
+        "length_of_stay": "4",
+        "los_units": "nights",
+        "includes": {
+            "air": "1",
+            "hotel": "1",
+            "rental_car": "0",
+            "sightseeing": "0",
+            "transfer": "1",
+            "all_inclusive": "1",
+            "adults_only": "1",
+            "honeymoon": "1",
+            "beach":"1",
+            "luxary":"1",
+            "golf_and_spa":"1"
+        },
+        "featured": "1",
+        "hot_deal": "0",
+        "exclusive": "0",
+        "my_time": "0",
+        "get_carried_away": "0",
+        "code": "70771"
+    },
+    {
+        "title": "Hyatt Zilara Cancun | Air & Vacation Package",
+        "name": "hyatt-zilara-cancun-air-vacation-package",
+        "type": "vacation",
+        "star_rating": "4.5",
+        "image": "images/Hyatt%20Zilara%20Cancun%20-%20new%20oms.jpg",
+        "destination": [
+            {
+                "name": "Cancun",
+                "parent": "Mexico"
+            }
+        ],
+        "advertsied_price": "1395.00",
+        "length_of_stay": "4",
+        "los_units": "nights",
+        "includes": {
+            "air": "1",
+            "hotel": "1",
+            "rental_car": "0",
+            "sightseeing": "0",
+            "transfer": "1",
+            "all_inclusive": "1",
+            "adults_only": "1",
+            "honeymoon": "1",
+            "beach":"1"
+        },
+        "featured": "0",
+        "hot_deal": "0",
+        "exclusive": "0",
+        "my_time": "1",
+        "get_carried_away": "0",
+        "code": "70886"
+    },
+    {
+        "title": "Iberostar Grand Bávaro | Air & Vacation Package",
+        "name": "iberostar-grand-bvaro-air-vacation-package",
+        "type": "vacation",
+        "star_rating": "4.5",
+        "image": "images/GHB_VIEWS_0016_med.jpg",
+        "destination": [
+            {
+                "name": "Punta Cana",
+                "parent": "Dominican Republic"
+            }
+        ],
+        "advertsied_price": "1265.00",
+        "length_of_stay": "4",
+        "los_units": "nights",
+        "includes": {
+            "air": "1",
+            "hotel": "1",
+            "rental_car": "0",
+            "sightseeing": "0",
+            "transfer": "1",
+            "all_inclusive": "1",
+            "adults_only": "1",
+            "honeymoon": "1",
+            "beach":"1",
+            "golf_and_spa":"1"
+        },
+        "featured": "0",
+        "hot_deal": "0",
+        "exclusive": "0",
+        "my_time": "0",
+        "get_carried_away": "0",
+        "code": "76941"
+    },
+    {
+        "title": "Hyatt Zilara Rose Hall | Air & Vacation Package",
+        "name": "hyatt-zilara-rose-hall-air-vacation-package",
+        "type": "vacation",
+        "star_rating": "4.5",
+        "image": "images/Hyatt-Zilara-RH.jpg",
+        "destination": [
+            {
+                "name": "Montego Bay",
+                "parent": "Jamaica"
+            }
+        ],
+        "advertsied_price": "1535.00",
+        "length_of_stay": "4",
+        "los_units": "nights",
+        "includes": {
+            "air": "1",
+            "hotel": "1",
+            "rental_car": "0",
+            "sightseeing": "0",
+            "transfer": "1",
+            "all_inclusive": "1",
+            "adults_only": "1",
+            "honeymoon": "1",
+            "lastMinute":"1",
+            "golf_and_spa":"1"
+        },
+        "featured": "0",
+        "hot_deal": "0",
+        "exclusive": "0",
+        "my_time": "1",
+        "get_carried_away": "0",
+        "code": "70926"
+    },
+    {
+        "title": "Hilton La Romana, an All-Inclusive Adults Resort | Air & Vacation Package",
+        "name": "hilton-la-romana-an-allinclusive-adults-resort-air-vacation-package",
+        "type": "vacation",
+        "star_rating": "4.0",
+        "image": "images/Hilton%20La%20Romana%20LRMFM_Aerial_Resorts_View_03.jpg",
+        "destination": [
+            {
+                "name": "La Romana",
+                "parent": "Dominican Republic"
+            }
+        ],
+        "advertsied_price": "1225.00",
+        "length_of_stay": "4",
+        "los_units": "nights",
+        "includes": {
+            "air": "1",
+            "hotel": "1",
+            "rental_car": "0",
+            "sightseeing": "0",
+            "transfer": "1",
+            "all_inclusive": "1",
+            "adults_only": "1",
+            "honeymoon": "1",
+            "golf_and_spa":"1"
+        },
+        "featured": "0",
+        "hot_deal": "0",
+        "exclusive": "0",
+        "my_time": "1",
+        "get_carried_away": "0",
+        "code": "111246"
+    },
+    {
+        "title": "Secrets® Papagayo Costa Rica | Air & Vacation Package",
+        "name": "secrets-papagayo-costa-rica-air-vacation-package",
+        "type": "vacation",
+        "star_rating": "4.5",
+        "image": "images/secrets%20papagayo%201.jpg",
+        "destination": [
+            {
+                "name": "Liberia",
+                "parent": "Costa Rica"
+            }
+        ],
+        "advertsied_price": "1435.00",
+        "length_of_stay": "4",
+        "los_units": "nights",
+        "includes": {
+            "air": "1",
+            "hotel": "1",
+            "rental_car": "0",
+            "sightseeing": "0",
+            "transfer": "1",
+            "all_inclusive": "1",
+            "adults_only": "1",
+            "honeymoon": "1",
+            "golf_and_spa":"1"
+        },
+        "featured": "0",
+        "hot_deal": "0",
+        "exclusive": "0",
+        "my_time": "0",
+        "get_carried_away": "0",
+        "code": "76576"
+    },
+    {
+        "title": "The Ritz-Carlton, Turks & Caicos | Air & Vacation Package",
+        "name": "the-ritzcarlton-turks-caicos-air-vacation-package",
+        "type": "vacation",
+        "star_rating": "5",
+        "image": "images/Ritz%20PLS%20RC_Turks__Caicos_052_0.jpg",
+        "destination": [
+            {
+                "name": "Providenciales",
+                "parent": "Turks & Caicos"
+            }
+        ],
+        "advertsied_price": "2299.00",
+        "length_of_stay": "4",
+        "los_units": "nights",
+        "includes": {
+            "air": "1",
+            "hotel": "1",
+            "rental_car": "0",
+            "sightseeing": "0",
+            "transfer": "1",
+            "all_inclusive": "0",
+            "adults_only": "0",
+            "honeymoon": "1",
+            "luxary":"1",
+            "casino":"1"
+        },
+        "featured": "0",
+        "hot_deal": "0",
+        "exclusive": "0",
+        "my_time": "0",
+        "get_carried_away": "0",
+        "code": "149301"
+    },
+    {
+        "title": "Secrets® Riviera Cancun Resort & Spa | Air & Vacation Package ",
+        "name": "secrets-riviera-cancun-resort-spa-air-vacation-package",
+        "type": "vacation",
+        "star_rating": "4.5",
+        "image": "images/Screenshot%202021-10-25%20171150.jpg",
+        "destination": [
+            {
+                "name": "Riviera Maya",
+                "parent": "Mexico"
+            }
+        ],
+        "advertsied_price": "1279.00",
+        "length_of_stay": "4",
+        "los_units": "nights",
+        "includes": {
+            "air": "1",
+            "hotel": "1",
+            "rental_car": "0",
+            "sightseeing": "0",
+            "transfer": "1",
+            "all_inclusive": "1",
+            "adults_only": "1",
+            "honeymoon": "1",
+            "golf_and_spa":"1"
+        },
+        "featured": "0",
+        "hot_deal": "0",
+        "exclusive": "0",
+        "my_time": "0",
+        "get_carried_away": "0",
+        "code": "76566"
+    },
+    {
+        "title": "Iberostar Grand Rose Hall | Air & Vacation Package",
+        "name": "iberostar-grand-rose-hall-air-vacation-package",
+        "type": "vacation",
+        "star_rating": "4.5",
+        "image": "images/GHR_VIEWS_0006_med_0.jpg",
+        "destination": [
+            {
+                "name": "Montego Bay",
+                "parent": "Jamaica"
+            }
+        ],
+        "advertsied_price": "1435.00",
+        "length_of_stay": "4",
+        "los_units": "nights",
+        "includes": {
+            "air": "1",
+            "hotel": "1",
+            "rental_car": "0",
+            "sightseeing": "0",
+            "transfer": "1",
+            "all_inclusive": "1",
+            "adults_only": "1",
+            "honeymoon": "1",
+            "golf_and_spa":"1"
+        },
+        "featured": "0",
+        "hot_deal": "0",
+        "exclusive": "0",
+        "my_time": "0",
+        "get_carried_away": "0",
+        "code": "71226"
+    },
+    {
+        "title": "UNICO 20°87° | Air & Vacation Package",
+        "name": "unico-2087-air-vacation-package",
+        "type": "vacation",
+        "star_rating": "5.0",
+        "image": "images/unico%201_0.jpg",
+        "destination": [
+            {
+                "name": "Riviera Maya",
+                "parent": "Mexico"
+            }
+        ],
+        "advertsied_price": "1415.00",
+        "length_of_stay": "4",
+        "los_units": "nights",
+        "includes": {
+            "air": "1",
+            "hotel": "1",
+            "rental_car": "0",
+            "sightseeing": "0",
+            "transfer": "1",
+            "all_inclusive": "1",
+            "adults_only": "1",
+            "honeymoon": "1"
+        },
+        "featured": "0",
+        "hot_deal": "0",
+        "exclusive": "0",
+        "my_time": "0",
+        "get_carried_away": "0",
+        "code": "76521"
+    },
+    {
+        "title": "La Casa de la Playa | Air & Vacation Package",
+        "name": "la-casa-de-la-playa-air-vacation-package",
+        "type": "vacation",
+        "star_rating": "5",
+        "image": "images/La%20Casa%20de%20la%20Playa%201_0.jpeg",
+        "destination": [
+            {
+                "name": "Riviera Maya",
+                "parent": "Mexico"
+            }
+        ],
+        "advertsied_price": "5689.00",
+        "length_of_stay": "4",
+        "los_units": "nights",
+        "includes": {
+            "air": "1",
+            "hotel": "1",
+            "rental_car": "0",
+            "sightseeing": "0",
+            "transfer": "0",
+            "all_inclusive": "1",
+            "adults_only": "1",
+            "honeymoon": "1",
+            "luxary":"1"
+        },
+        "featured": "0",
+        "hot_deal": "0",
+        "exclusive": "0",
+        "my_time": "0",
+        "get_carried_away": "0",
+        "code": "145671"
+    },
+    {
+        "title": "Breathless Cancun Soul Resort & Spa®| Air & Vacation Package",
+        "name": "breathless-cancun-soul-resort-spa-air-vacation-package",
+        "type": "vacation",
+        "star_rating": "4",
+        "image": "images/BRECU-EXT-Pano-from-lagoon-1A-CB.png",
+        "destination": [
+            {
+                "name": "Cancun",
+                "parent": "Mexico"
+            }
+        ],
+        "advertsied_price": "1059.00",
+        "length_of_stay": "4",
+        "los_units": "nights",
+        "includes": {
+            "air": "1",
+            "hotel": "1",
+            "rental_car": "0",
+            "sightseeing": "0",
+            "transfer": "1",
+            "all_inclusive": "1",
+            "adults_only": "1",
+            "beach": "1"
+        },
+        "featured": "1",
+        "hot_deal": "1",
+        "exclusive": "0",
+        "my_time": "0",
+        "get_carried_away": "0",
+        "code": "144391"
+    },
+    {
+        "title": "San Juan Marriott Resort & Stellaris Casino | Air & Vacation Package",
+        "name": "san-juan-marriott-resort-stellaris-casino-air-vacation-package",
+        "type": "vacation",
+        "star_rating": "4.0",
+        "image": "images/san%20juan%20marriott.jpg",
+        "destination": [
+            {
+                "name": "San Juan",
+                "parent": "Puerto Rico"
+            }
+        ],
+        "advertsied_price": "1179.00",
+        "length_of_stay": "4",
+        "los_units": "nights",
+        "includes": {
+            "air": "1",
+            "hotel": "1",
+            "rental_car": "0",
+            "sightseeing": "0",
+            "transfer": "1",
+            "all_inclusive": "0",
+            "adults_only": "0",
+            "beach": "1",
+            "casino":"1"
+        },
+        "featured": "1",
+        "hot_deal": "0",
+        "exclusive": "0",
+        "my_time": "0",
+        "get_carried_away": "0",
+        "code": "71526"
+    },
+    {
+        "title": "Riu Palace Jamaica | Air & Vacation Package  ",
+        "name": "riu-palace-jamaica-air-vacation-package",
+        "type": "vacation",
+        "star_rating": "4.5",
+        "image": "images/elite-room-macao_tcm55-284868.jpg",
+        "destination": [
+            {
+                "name": "Montego Bay",
+                "parent": "Jamaica"
+            }
+        ],
+        "advertsied_price": "1215.00",
+        "length_of_stay": "4",
+        "los_units": "nights",
+        "includes": {
+            "air": "1",
+            "hotel": "1",
+            "rental_car": "0",
+            "sightseeing": "0",
+            "transfer": "1",
+            "all_inclusive": "1",
+            "adults_only": "1",
+            "beach": "1",
+            "golf_and_spa":"1"
+        },
+        "featured": "1",
+        "hot_deal": "0",
+        "exclusive": "0",
+        "my_time": "0",
+        "get_carried_away": "0",
+        "code": "130621"
+    },
+    {
+        "title": "Hotel Xcaret Arte | Air & Vacation Package",
+        "name": "hotel-xcaret-arte-air-vacation-package",
+        "type": "vacation",
+        "star_rating": "5",
+        "image": "images/pool-3.png",
+        "destination": [
+            {
+                "name": "Riviera Maya",
+                "parent": "Mexico"
+            }
+        ],
+        "advertsied_price": "2015.00",
+        "length_of_stay": "4",
+        "los_units": "nights",
+        "includes": {
+            "air": "1",
+            "hotel": "1",
+            "rental_car": "0",
+            "sightseeing": "0",
+            "transfer": "0",
+            "all_inclusive": "1",
+            "adults_only": "1",
+            "luxary": "1"
+        },
+        "featured": "0",
+        "hot_deal": "0",
+        "exclusive": "0",
+        "my_time": "0",
+        "get_carried_away": "0",
+        "code": "111141"
+    },
+    {
+        "title": "Hotel Mousai | Air & Vacation Package",
+        "name": "hotel-mousai-air-vacation-package",
+        "type": "vacation",
+        "star_rating": "5.0",
+        "image": "images/Hotel%20Mousai.jpg",
+        "destination": [
+            {
+                "name": "Puerto Vallarta",
+                "parent": "Mexico"
+            }
+        ],
+        "advertsied_price": "1399.00",
+        "length_of_stay": "4",
+        "los_units": "nights",
+        "includes": {
+            "air": "1",
+            "hotel": "1",
+            "rental_car": "0",
+            "sightseeing": "0",
+            "transfer": "1",
+            "all_inclusive": "0",
+            "adults_only": "1",
+            "luxary": "1"
+        },
+        "featured": "0",
+        "hot_deal": "0",
+        "exclusive": "0",
+        "my_time": "0",
+        "get_carried_away": "0",
+        "code": "78871"
+    },
+    {
+        "title": "Zoëtry® Casa Del Mar Los Cabos | Air & Vacation Package ",
+        "name": "zotry-casa-del-mar-los-cabos-air-vacation-package",
+        "type": "vacation",
+        "star_rating": "4",
+        "image": "images/Zoetry%20-%20pool_0.JPG",
+        "destination": [
+            {
+                "name": "Los Cabos",
+                "parent": "Mexico"
+            }
+        ],
+        "advertsied_price": "1629.00",
+        "length_of_stay": "4",
+        "los_units": "nights",
+        "includes": {
+            "air": "1",
+            "hotel": "1",
+            "rental_car": "0",
+            "sightseeing": "0",
+            "transfer": "1",
+            "all_inclusive": "1",
+            "adults_only": "0",
+            "luxary": "1"
+        },
+        "featured": "0",
+        "hot_deal": "0",
+        "exclusive": "0",
+        "my_time": "0",
+        "get_carried_away": "0",
+        "code": "144471"
+    },
+    {
+        "title": "Spice Island Beach Resort | Air & Vacation Package",
+        "name": "spice-island-beach-resort-air-vacation-package",
+        "type": "vacation",
+        "star_rating": "5.0",
+        "image": "images/Spice-Island.jpg",
+        "destination": [
+            {
+                "name": "Grenada",
+                "parent": "Caribbean"
+            }
+        ],
+        "advertsied_price": "3715.00",
+        "length_of_stay": "7",
+        "los_units": "nights",
+        "includes": {
+            "air": "1",
+            "hotel": "1",
+            "rental_car": "0",
+            "sightseeing": "0",
+            "transfer": "0",
+            "all_inclusive": "1",
+            "adults_only": "0",
+            "luxary": "1"
+        },
+        "featured": "0",
+        "hot_deal": "0",
+        "exclusive": "0",
+        "my_time": "0",
+        "get_carried_away": "0",
+        "code": "77056"
+    },
+    {
+        "title": "Riu Palace Antillas | Air & Vacation Package",
+        "name": "riu-palace-antillas-air-vacation-package",
+        "type": "vacation",
+        "star_rating": "4.0",
+        "image": "images/ANTILLAS%20Room.jpg",
+        "destination": [
+            {
+                "name": "Aruba",
+                "parent": "Caribbean"
+            }
+        ],
+        "advertsied_price": "1755.00",
+        "length_of_stay": "4",
+        "los_units": "nights",
+        "includes": {
+            "air": "1",
+            "hotel": "1",
+            "rental_car": "0",
+            "sightseeing": "0",
+            "transfer": "1",
+            "all_inclusive": "1",
+            "adults_only": "1",
+            "casino": "1"
+        },
+        "featured": "0",
+        "hot_deal": "0",
+        "exclusive": "0",
+        "my_time": "0",
+        "get_carried_away": "0",
+        "code": "71086"
+    },
+    {
+        "title": "Majestic Elegance Punta Cana | Air & Vacation Package",
+        "name": "majestic-elegance-punta-cana-air-vacation-package",
+        "type": "vacation",
+        "star_rating": "4.0",
+        "image": "images/Majestic%20Elegance%20PUJ.jpg",
+        "destination": [
+            {
+                "name": "Punta Cana",
+                "parent": "Dominican Republic"
+            }
+        ],
+        "advertsied_price": "1025.00",
+        "length_of_stay": "4",
+        "los_units": "nights",
+        "includes": {
+            "air": "1",
+            "hotel": "1",
+            "rental_car": "0",
+            "sightseeing": "0",
+            "transfer": "1",
+            "all_inclusive": "1",
+            "adults_only": "0",
+            "golf_and_spa": "1"
+        },
+        "featured": "0",
+        "hot_deal": "0",
+        "exclusive": "0",
+        "my_time": "1",
+        "get_carried_away": "0",
+        "code": "70881"
+    }
+]
