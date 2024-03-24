@@ -81,6 +81,12 @@ const dealDetailSchema = new Schema({
                 longitude: String,
                 latitude: String
             },
+            dining_entertainment:[{type:String}],
+            disabled_facilities:[{type:String}],
+            family_facilities:[{type:String}],
+            features:[{type:String}],
+            liesure_recreation:[{type:String}],
+            nearby:[{type:String}],
             checkin: String,
             checkout: String,
             rooms: String,
