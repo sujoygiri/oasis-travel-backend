@@ -22,7 +22,7 @@ authRouter.post("/signup", createUsernameChain(), createEmailChain(), createPass
                 password = hash;
                 try {
                     let userData = await userModel.create({ username, email, password });
-                    const jwtToken = jwt.sign({userName:userData.username, userEmail:userData.email, userId:userData._id }, jwtSecret, { expiresIn: expireTime });
+                    const jwtToken = jwt.sign({ userName: userData.username, userEmail: userData.email, userId: userData._id }, jwtSecret, { expiresIn: expireTime });
                     res.cookie('_token', jwtToken, { maxAge: expireTime, httpOnly: true, sameSite: "strict", priority: "high" });
                     res.json({ success: true, message: 'sign up successful!' });
                 } catch (error) {
@@ -55,13 +55,13 @@ authRouter.post("/signin", createEmailChain(), createPasswordChain(), async (req
                     } else {
                         let mismatchPasswordError = new Error("Wrong password");
                         mismatchPasswordError.statusCode = 400;
-                        throw mismatchPasswordError;
+                        next(mismatchPasswordError);
                     }
                 });
             } else {
                 let error = new Error("User not found");
                 error.statusCode = 404;
-                throw error;
+                next(error);
             }
         } catch (error) {
             next(error);
@@ -74,18 +74,24 @@ authRouter.post("/signin", createEmailChain(), createPasswordChain(), async (req
 
 authRouter.get("/verify", (req, res, next) => {
     const cookie = req.headers?.cookie;
-    const jwtTokenFromClient = cookie && cookie.split("_token=")[1];
+    const allCookie = cookie.split(';');
+    let jwtTokenFromClient = '';
+    cookie && allCookie.forEach(cookieEle => {
+        if (cookieEle.includes('_token=')) {
+            jwtTokenFromClient = cookieEle.split('=')[1];
+        }
+    });
     if (jwtTokenFromClient) {
-        jwt.verify(jwtTokenFromClient, jwtSecret,async (err, decodeData) => {
+        jwt.verify(jwtTokenFromClient, jwtSecret, async (err, decodeData) => {
             if (!err) {
                 let userId = decodeData.userId;
-                let userData = await userModel.findById(userId,{_id:0,password:0})
-                if(userData && userData.username && userData.email){
+                let userData = await userModel.findById(userId, { _id: 0, password: 0 });
+                if (userData && userData.username && userData.email) {
                     res.cookie('_token', jwtTokenFromClient, { maxAge: expireTime, httpOnly: true, sameSite: "strict", priority: "high" });
-                    res.json({ success: true, message: "user verification successful",userName: userData.username, userEmail: userData.email});
-                }else{
+                    res.json({ success: true, message: "user verification successful", userName: userData.username, userEmail: userData.email });
+                } else {
                     res.cookie('_token', jwtTokenFromClient, { maxAge: expireTime, httpOnly: true, sameSite: "strict" });
-                    res.json({ success: false, message: "user verification failed!"});
+                    res.json({ success: false, message: "user verification failed!" });
                 }
             } else {
                 next(err);
@@ -98,11 +104,11 @@ authRouter.get("/verify", (req, res, next) => {
     }
 });
 
-authRouter.get("/logout",(req,res,next) => {
-    const jwtToken = jwt.sign('',jwtSecret);
-    res.cookie('_token',jwtToken,{ maxAge: expireTime, httpOnly: true, sameSite: "strict" });
-    res.json({success:true,message:"logout successful!"})
-})
+authRouter.get("/logout", (req, res, next) => {
+    const jwtToken = jwt.sign('', jwtSecret);
+    res.cookie('_token', jwtToken, { maxAge: expireTime, httpOnly: true, sameSite: "strict" });
+    res.json({ success: true, message: "logout successful!" });
+});
 
 
 module.exports = authRouter;
